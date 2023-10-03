@@ -9,6 +9,7 @@ function plot_z_coord(V,F)
 f = V(:,3);
 tsurf(F,V,'CData',f); axis equal;
 shading flat
+colormap(cbrewer('OrRd',50)); colorbar;
 
 end
 
