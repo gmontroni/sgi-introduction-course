@@ -8,5 +8,6 @@ function d = det2x2(A)
 % Outputs:
 %  d  the determinant of A
 
-end
+d = A(1,1)*A(2,2) - A(1,2)*A(2,1);
 
+end

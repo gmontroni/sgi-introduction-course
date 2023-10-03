@@ -1,7 +1,13 @@
-function [outputArg1,outputArg2] = add_then_multiply(inputArg1,inputArg2)
+function [result] = add_then_multiply(a1,a2,m)
 %ADD_THEN_MULTIPLY Summary of this function goes here
-%   Detailed explanation goes here
-outputArg1 = inputArg1;
-outputArg2 = inputArg2;
+
+% [result] = add_then_multiply(a1,a2,m)
+%
+% Inputs:
+%  a1, a2, m the random numbers
+% Outputs:
+%  result the result of sum a1 plus a2 and multiplied by m
+
+result = (a1 + a2) * m;
 end
 

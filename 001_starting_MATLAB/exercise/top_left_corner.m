@@ -10,5 +10,7 @@ function C = top_left_corner(A, r, c)
 % Outputs:
 %  C  the r-by-c top left corner of A
 
+C = A(1:r, 1:c);
+
 end
 

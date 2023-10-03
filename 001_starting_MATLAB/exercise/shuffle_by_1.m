@@ -10,5 +10,7 @@ function A = shuffle_by_1(A)
 % Outputs:
 %  A  the input matrix with the rows shuffled to the right by 1
 
+A = [A(:,end), A(:,1:end-1)];
+
 end
 
